@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    border:0;
+    margin:0;
+    padding:0;
+    font-family: 'Nunito', sans-serif;}
+
+hr{
+    color: black;
+    border: 1px solid #dadada;
+    margin-top: 60px;
+}
+
+.courses{
+    margin: 30px;
+}
+
+.title{
+    padding: 10px;
+    text-align:center;
+    font-size:25px;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+#third-col--flex img{
+    width: 100%;
+    height: 170px;
+    align-content: center;
+    border-radius: 8px;    
+}
+
+#third-col--flex{
+    display: flex;
+    justify-content: center;
+    gap: 2.3em;
+}
+
+#third-col--flex div{
+    width: 270px;
+    height: 380px;
+    background-color: #ffffff;
+    border:1px solid #dadada;
+    margin-top: 1.8em;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#third-col--flex div a{
+    text-decoration: none;
+}
+
+#third-col--flex div:hover{
+    cursor: pointer;
+    scale: 1.04;
+    transition: 0.8s;
+    background-color: #dadada;
+}
+
+
+#third-col--flex span{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#third-col--flex p{
+    font-size: 1rem;
+    color: black;
+    margin-top: 1.7em;
+    line-height: 24px;
+}
+
+/* ---------------------------------------------dsa--------------------------------------------- */
+
+
+.courses{
+    margin: 30px 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.courses p{
+    font-size: 19px;
+    text-align: justify;
+}
+.courses img{
+
+    width: 340px;
+    float: left;
+    border-radius: 15px; 
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding-top: 7px;
+}
+
+.courses link{
+    text-decoration: none;
+}
+/* ------------------------------------------------------------------------------------------ */
+.language{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* --------------------------------------------------------------------------------------------- */
+.dsa img{
+    width: 700px;
+    /* float: left; */
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+.web-dev
+{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.webDev1{
+    padding-top: 20px;
+}
+
+.web-dev img{
+    width: 340px;
+    height: auto;
+    border-radius: 15px; 
+}
+
+/* --------------------------------------------------------------------------------- */
+.ai-ml img:nth-child(1){
+    width: 370px;
+    margin-right: 10px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+
+.roadmap img{
+    width: 85%;
+    height: auto;
+    padding: 10%;
+    padding-top: 18px;
+    align-items: center;
+    /* margin-left: 10%; */
+}
+
+/* ------------------------------------------Footer-------------------------------------------------- */
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 80px 20px 80px;
+    margin-top: 3em;
+    height:fit-content;
+    background-color: #083434;
+    gap: 3em;
+}
+footer div p{
+    padding: 10px;
+    color:white;
+}
+
+footer div h4, div:last-child h2{
+    color: white;
+    padding: 5px;
+}
+
+footer div:last-child ul li{
+    list-style-type: none;
+    color: white;
+    padding: 5px;
+}
+
+.social{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.social a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-right: 15px;
+}
+
+.social a ion-icon:hover{
+    scale: 1.7;
+    transition: 0.8s;
+}
+

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    background-color: #083434;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+nav img{
+    width: auto;
+    height: 90px;
+    align-items: center;
+    border-radius: 30px;
+    /* background-color: white; */
+    /* padding: 4px 47px 4px 7px; */
+    /* padding-left:4px ; */
+}
+
+nav ul{
+    display: inline-flex;
+    align-items: center;
+    gap: 1.7em;
+}
+
+nav ul li{
+    list-style-type: none;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0.7rem;
+    transition: color 0.8s ease;
+}
+
+nav ul li a:hover{
+    /* scale: 2.2; */
+    font-size:1.3rem;
+    transition: 0.5s ease;
+}
+
+nav button{
+    background-color:white;
+    border: 1px solid black;
+    width: 137px;
+    height: 37px;
+    color: black;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+
+nav button:hover{
+    scale: 1.1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* -----------------------------------------end of nav------------------------------------- */
+#second-ff{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+
+#second-ff h1{
+    font-size: 3.2rem;
+
+    color: black;
+    font-weight: 50;
+}
+#second-ff h3{
+    color: rgb(114, 108, 108);
+    font-size: 1.5rem;
+}
+
+#second-ff p{
+    font-size: 1.3rem;
+    margin: 17px 0px 17px 0px;
+}
+
+#second-ff-flex{
+    display: flex;
+    margin-top: 3em;
+    gap: 1em;
+    color: white;
+}
+
+#second-ff-flex div:first-child{
+    background-color: #083434;
+    padding: 17px;
+    border-radius: 11px;
+    line-height: 33px;
+}
+
+#second-ff-flex a{
+    text-decoration: none;
+}
+
+#second-ff-flex h3
+{
+    color: white;
+    font-weight: normal;
+}
+
+#second-ff-flex div:nth-of-type(2){
+    background-color: #083434;
+    padding: 17px;
+    border-radius: 11px;
+    line-height: 33px;
+} 
+
+#second-ff-flex div:hover{
+    cursor: pointer;
+    transition: 3s;
+}
+
+#second-ff-flex div:nth-of-type(2) h2{
+    font-weight: normal;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+#work-id{
+    text-align: center;
+    font-size: 3rem;
+    color: #083434;
+    margin: 39px 0px 27px 0px;
+}
+
+#third-col--flex img{
+    width: 300px;
+    height: 180px;
+    align-content: center;
+    border-radius: 8px;    
+}
+
+#third-col--flex{
+    display: flex;
+    justify-content: center;
+    gap: 3.5em;
+}
+
+#third-col--flex div{
+    width: 320px;
+    height: 380px;
+    background-color: #ffffff;
+    border:1px solid #dadada;
+    margin-top: 1.8em;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#third-col--flex div a{
+    text-decoration: none;
+}
+
+#third-col--flex div:hover{
+    cursor: pointer;
+    scale: 1.04;
+    transition: 0.8s;
+    background-color: #dadada;
+}
+
+
+#third-col--flex span{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#third-col--flex p{
+    font-size: 1rem;
+    color: black;
+    margin-top: 1.7em;
+    line-height: 24px;
+}
+/* -----------------------------------FOOTER-------------------------------------------- */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 90px 50px 90px;
+    margin-top: 3em;
+    height:fit-content;
+    background-color: #083434;
+    gap: 3em;
+}
+footer div p{
+    padding: 10px;
+    color:white;
+}
+
+footer div h4, div:last-child h2{
+    color: white;
+    padding: 5px;
+}
+
+footer div:last-child ul li{
+    list-style-type: none;
+    color: white;
+    padding: 5px;
+}
+
+.social{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.social a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-right: 15px;
+}
+
+.social a ion-icon:hover{
+    scale: 1.7;
+    transition: 0.8s;
+}
+
+
+/* --------------------------------------------------------------------------------------------------- */
